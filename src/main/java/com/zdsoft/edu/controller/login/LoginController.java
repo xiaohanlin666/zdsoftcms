@@ -29,7 +29,7 @@ public class LoginController {
 		HttpSession session=request.getSession();
 		ModelAndView mv = new ModelAndView("/home");
 		UserDto user=userService.selectByUsername(username);
-		logger.info("======"+user.getUsername());
+		logger.info("========="+user.getUsername());
 		if(user.getPasswd().equalsIgnoreCase(password))
 			session.setAttribute("userInfo", user);
 		
