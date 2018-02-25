@@ -35,7 +35,7 @@
     if(time!=0)
     System.out.println(time+"===avg count per second==="+count/time);
 %>  
-<form action="${pageContext.request.contextPath}/login/login.do" method="post">
+<form action="${pageContext.request.contextPath}/login/668/login.do" method="post">
 <table>
 <tr>
 <td>用户名：</td>
